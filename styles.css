@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300&family=Oswald:wght@200;300;400;500;600;700&family=Palanquin+Dark&family=Palanquin:wght@400;700&family=Paytone+One&display=swap');
+body{
+    background-color: #EFF1ED;
+    font-family: Palanquin Dark;
+}
+
+.mainTitle{
+    font-family: Palanquin Dark;
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+
+.cuadrado{ 
+    display: inline-block;
+    margin-top: 50px;
+    width: 30%;
+    height: 30%;
+    background-color: #717744;
+    margin-left: 13%;
+    border-radius: 20%;
+}
+
+.textoCuadradoContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.textoCuadradoTitulo{
+    width: 80%;
+    font-size: 40px;
+    margin-top: 10%;
+    margin-bottom: 0px;
+    background-color: #BCBD8B;
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+
+.textoCuadradoPrecio{
+    height: 1em;
+    font-size: 450%;
+    margin-top: 70px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+
+.errorInput{
+    border: 2px solid red;
+}
+
+.datoDeUsuario{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+#btn-guardar{
+    margin-top: 10%;
+    background-color: #766153;
+    cursor: pointer;
+    border: none;
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    position: relative;
+    border-radius: 12px;
+}
+
+.conversionTitulo{
+    margin-top: 3%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.conversionTituloResultado{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#dolaresImpreso{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: x-large;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

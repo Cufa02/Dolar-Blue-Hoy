@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Entrega JS</title>
+</head>
+<body>
+    <h1 class="mainTitle">CONVERSOR PESO A DOLAR</h1>
+    <div class="cuadrado">
+        <div class="textoCuadradoContainer">
+            <p class="textoCuadradoTitulo">COMPRA</p>
+            <p id="valorBlueC" class="textoCuadradoPrecio"></p>
+        </div>
+    </div>
+    <div class="cuadrado">
+        <div class="textoCuadradoContainer">
+            <p class="textoCuadradoTitulo">VENTA</p>
+            <p id="valorBlueV"class="textoCuadradoPrecio"></p>
+        </div>
+    </div>
+    <div>
+        <h2 class="conversionTitulo">Ingrese la cantidad de pesos que desee convertir</h2>
+        <div class="datoDeUsuario">
+            <div id="conversorDato">
+                <input type="number" id="pesosAConvertir" min="0" required>
+            </div>
+            <div class="botonConvertir">
+                <button type="button" id="btn-guardar">Convertir</button>
+            </div>
+        </div>
+        <p class="conversionTituloResultado">CONVERSIÓN :</p>
+        <p id="dolaresImpreso"></p>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="./js/main.js"></script>
+</body>
+
+</html>
